@@ -1,38 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
-    <title>Narrow Jumbotron Template for Bootstrap</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
-    <!--[if lt IE 9]><script src="/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="/js/ie-emulation-modes-warning.js"></script>
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-<div class="container">
-    <div class="header clearfix">
-        <nav>
-            <ul class="nav nav-pills pull-right">
-                <li role="presentation" class="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">About</a></li>
-                <li role="presentation"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <h3 class="text-muted">Project name</h3>
-    </div>
+<?php
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+$title = 'Home';
+$description = 'Description';
+require_once 'protected/views/layouts/_top.php';
+?>
 
     <div class="jumbotron">
         <h1>Jumbotron heading</h1>
@@ -64,12 +37,4 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <p>&copy; 2016 Company, Inc.</p>
-    </footer>
-
-</div> <!-- /container -->
-
-<script src="/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
+<?php require_once 'protected/views/layouts/_bottom.php';?>

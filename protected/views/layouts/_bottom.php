@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: papasha
- * Date: 07.09.2017
- * Time: 17:43
- */
+<footer class="footer">
+    <p>&copy; 2016 Company, Inc.</p>
+</footer>
+
+</div> <!-- /container -->
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
