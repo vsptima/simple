@@ -1,10 +1,8 @@
 <?php
-ini_set('error_reporting', E_ALL);
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-$title = 'Home';
-$description = 'Description';
-require_once 'protected/views/layouts/_top.php';
+require_once 'protected/views/layouts/_classes.php';
+$page->title = 'Главная страница';
+$page->description = 'Описание главной страницы';
+$page->header();
 ?>
 
     <div class="jumbotron">
@@ -37,4 +35,4 @@ require_once 'protected/views/layouts/_top.php';
         </div>
     </div>
 
-<?php require_once 'protected/views/layouts/_bottom.php';?>
+<?php $page->footer() ?>
