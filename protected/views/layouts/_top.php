@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?php echo $description; ?>">
+    <meta name="description" content="<?php echo $this->description; ?>">
     <meta name="author" content="">
     <link rel="icon" href="/favicon.ico">
-    <title><?php echo $title; ?></title>
+    <title><?php echo $this->title; ?></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -25,5 +25,5 @@
 <div class="container">
     <div class="header clearfix">
         <?php require_once '_menu.php';?>
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted"><?php echo $this->projectName; ?></h3>
     </div>

@@ -1,5 +1,5 @@
 <footer class="footer">
-    <p>&copy; 2016 Company, Inc.</p>
+    <p><a href="/"><?php echo $this->copyright; ?></a></p>
 </footer>
 
 </div> <!-- /container -->

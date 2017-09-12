@@ -1,4 +1,3 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'].'/protected/classes/Html.php'; ?>
 <nav>
     <ul class="nav nav-pills pull-right">
         <?php echo Html::menuLink('/','Home')?>
