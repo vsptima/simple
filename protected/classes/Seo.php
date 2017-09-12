@@ -10,5 +10,5 @@ class Seo {
     public $description;
     public $author="Vasin S.P.";
     public $copyright="@ simple.vspds.ru 2017";
-    public $projectName="Simple Project";
+    public $projectName="Simple PHP Project";
 }
