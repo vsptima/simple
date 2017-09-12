@@ -1,0 +1,35 @@
+Правила оформления файла README.MD на GITHUB
+http://webdesign.ru.net/article/pravila-oformleniya-fayla-readmemd-na-github.html
+
+
+Алгоритм подключения проекта к GitHub
+1. создаем репозиторрий на GitHub
+2. клонируем проект на локальный компьютер с https-адреса
+3. открываем терминал и идем в директорию C:\Users\papasha\.ssh
+	- cd C:\Users\papasha\.ssh
+4. генерируем Deploy Key (ssh-ключ) для проекта
+	- ssh-keygen -t rsa
+	- вводим название ключа
+	- вводим пароль к ключу два раза
+5. подключаем ключ к хосту
+	- открываем файл C:\Users\papasha\.ssh\config
+	- и вписываем туда это
+		Host github_vsptima
+		  User git
+		  Hostname github.com
+		  IdentityFile ~/.ssh/github_vsptima
+6. подключаем Deploy Key
+	- копируем содержимое файла github_vsptima.pub
+	- вставляем в Deploy Key на странице https://github.com/settings/keys
+7. возвращаемся в директорию проекта
+	- cd "E:\Projects\PhpStorm\simple"
+	- добавляем юзера для коммитов
+		- git config user.name "Vasin Semen"
+	- добавляем почту
+		git config user.email "vsp.tima@gmail.com"
+8. меняем адрес репозитория с https на ssh
+	- VCS -> Git -> Remotes
+	- удаляем адрес с https
+	- вставляем git@github_vsptima:vsptima/simple.git
+	- вводим пароль для ssh-ключа
+9. пробуем делать push - все должно работать
