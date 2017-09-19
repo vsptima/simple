@@ -14,7 +14,6 @@ $page->header();
     <div class="row marketing">
         <?php
         $xml = simplexml_load_file('protected/data/skill.xml');
-        //Html::printArray($xml);
         ?>
         <?php foreach ($xml as $val):?>
             <div class="panel panel-default">
