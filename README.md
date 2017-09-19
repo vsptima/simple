@@ -9,6 +9,9 @@ First simple php project
 ### Issues ###
 [Closed](https://github.com/vsptima/simple/issues?q=is%3Aissue+is%3Aclosed)
 
+### Pull requests ###
+[Closed](https://github.com/vsptima/simple/pulls?q=is%3Apr+is%3Aclosed)
+
 ### What is this repository for? ###
 * Learn PHP/JavaScript/JSON/XML
 * Learn Git
