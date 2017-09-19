@@ -1,5 +1,14 @@
 # simple
 First simple php project
+### Wiki ###
+[What to do](https://github.com/vsptima/simple/wiki/PhpStorm)
+
+### Project ###
+[as YouTrack](https://github.com/vsptima/simple/projects/1)
+
+### Issues ###
+[Closed](https://github.com/vsptima/simple/issues?q=is%3Aissue+is%3Aclosed)
+
 ### What is this repository for? ###
 * Learn PHP/JavaScript/JSON/XML
 * Learn Git
